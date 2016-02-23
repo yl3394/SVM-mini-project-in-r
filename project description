@@ -1,0 +1,8 @@
+Apply a SVM to classify hand-written digits by using the package e1071. 
+Each data point is a 256-vector as a 16-by-16 image of a hand-written 
+number which can be classified as either 5 or 6. First, I applied cross-
+validations on parameters of both the linear SVM with soft margin and 
+the SVM with both soft margin and RBF kernel. Based on data-visualizations 
+(ggplot2) of CV estimates of the misclassification rate, I selected a 
+model for each classifier, and then trained them on the test dataset 
+for further model selection. 
